@@ -6,6 +6,6 @@ from my_project.my_project_stack import MyProjectStack
 
 
 app = core.App()
-MyProjectStack(app, "my-project")
+MyProjectStack(app, "my-project", env={'region': 'us-west-1'})
 
 app.synth()

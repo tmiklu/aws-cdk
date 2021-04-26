@@ -1,1 +1,5 @@
 -e .
+boto3
+aws-cdk.aws_apigateway
+aws-cdk.aws-lambda
+aws_cdk.aws_ecs
