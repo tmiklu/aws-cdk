@@ -3,7 +3,8 @@ from aws_cdk import (
     aws_ec2 as ec2,
     aws_ecs as ecs,
     aws_lambda as _lambda,
-    aws_apigateway as apigw
+    aws_apigateway as apigw,
+    aws_codebuild as cb
 )
 
 
@@ -42,3 +43,7 @@ class MyProjectStack(core.Stack):
             self, 'vls-trigger-jira-build-API',
             handler=my_lambda,
         )
+
+        #codebuild = cb.Project(
+        #
+        #)
