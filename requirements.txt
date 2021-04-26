@@ -1,4 +1,5 @@
 boto3
 aws-cdk.aws_apigateway
+aws_cdk.aws_codebuild
 aws-cdk.aws-lambda
 aws_cdk.aws_ecs
